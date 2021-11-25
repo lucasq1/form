@@ -9,7 +9,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     height: 100vh;
-    background-image: linear-gradient(to top, #30d0d07a 0%, #33086786 100%) , url(img/fabian-quintero-UWQP2mh5YJI-unsplash.jpg);
+    background-image: linear-gradient(to top, #30d0d07a 0%, #33086786 100%) , url(/img/fabian-quintero-UWQP2mh5YJI-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
