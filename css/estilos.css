@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(to top, #30d0d07a 0%, #33086786 100%) , url(fabian-quintero-UWQP2mh5YJI-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@ body{
 
 .cont{
     width: 400px;
-    height: 500px;
+    
     background-color: white;
     margin: 100px auto;
     padding: 20px 15px;
@@ -59,4 +59,49 @@ body{
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);    
     
    
+}
+
+@media screen and (max-width: 425px){
+   
+    .cont{
+        width: 90%;
+        min-width: 200px;
+    }
+
+    .cont__h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    
+}
+
+@media screen and (orientation:landscape) and (max-height:606px){
+    .cont{
+        
+        margin:30px auto
+    }
+
+    .cont__h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .cont__inp{
+        width: 100%;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    .cont__txtarea{
+        padding: 15px;
+        width: 100%;
+        outline: none;
+        height: 50px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
 }
