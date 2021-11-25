@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(to top, #30d0d07a 0%, #33086786 100%) , url(/img/fabian-quintero-UWQP2mh5YJI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cont{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 20px 15px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.432);
+
+}
+
+.cont__h1{
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-weight: bold;
+}
+
+.cont__inp{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.cont__txtarea{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.cont__btn{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);    
+    
+   
+}
